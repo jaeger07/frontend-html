@@ -1,16 +1,68 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
 
     <title>Moovin</title>
     <meta name="description" content="Moovin">
+    <link rel="stylesheet" href="./styles/scss/styles.css">
 </head>
 
 <body>
-    <!-- Write your code here -->
+    <div class="container faixa">
+        <div class="contatos">
+            <div class="telefone">
+                <img src="./assets/phone.svg" alt="fone">
+                <span>(51) 9 9920 0350</span>
+            </div>
+            <div class="whatsapp">
+                <img src="./assets/whats.svg" alt="fone">
+                <span>(51) 9 9920 0350</span>
+            </div>
+            
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Trocas e Devoluções</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="./assets/logo.svg" alt="Moovin">
+            </a>
+        </div>
+        <form class="form" action="#" method="get">
+            <input type="text" placeholder="O que você está procurando?">
+            <button type="submit"><img src="./assets/search.svg" alt="buscar"></button>
+        </form>
+        <div class="entrar-carrinho">
+            <div class="entrar">
+                <a href="#">Entrar
+                    <img src="./assets/chevron-down.svg" alt="more">
+                </a>
+                <div class="caixa-menu">
+                    <ul>
+                        <li><a href="#">Minha conta</a></li>
+                        <li><a href="#">Meus pedidos</a></li>
+                        <li><a href="#">Lista de desejos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="carrinho-compras">
+                <button>
+                    <img src="./assets/path.svg" alt="carrinho de compras">
+                    <span class="quantidade">+50</span>
+                </button>
+            </div>
+        </div>
+
+    </header>
 </body>
 
 </html>
